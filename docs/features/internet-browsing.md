@@ -29,6 +29,7 @@ Preferences -> Service Providers -> Internet Browsing -> [Select Providers]
 
 | Name | Free | Paid | Pricing page | Get API Key |
 |---|---|---|---|---|
+| [EnconvoAI Search Engine](https://www.enconvo.com) | Free | Free | [Free](https://www.enconvo.com)  | [EnconvoAI](https://www.enconvo.com) |
 | [Azure Bing Search Engine](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api) | 1000 queries per month | **S1** $25 per 1,000 transactions | [Pricing](https://www.microsoft.com/en-us/bing/apis/pricing)  | [Get Bing Search Key](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api) |
 | [Google Cloud Search Engine](https://programmablesearchengine.google.com/about/) | 100 queries per day | Additional requests cost $5 per 1000 queries, up to 10k queries per day |  | [Get Google Search Key](https://docs.mindmac.app/how-to.../internet-browsing/get-google-search-key) |
 | [Tavily](https://tavily.com/) | 1000 queries per month | **Wanderer** plan costs 100$/month for 15000 API calls | [Pricing](https://tavily.com/#pricing) | [Get Tavily Key](https://docs.mindmac.app/how-to.../internet-browsing/get-tavily-key) |
