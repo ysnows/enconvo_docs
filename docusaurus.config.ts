@@ -78,8 +78,14 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://enconvo.features.vote/board',
+          label: 'Feature Request',
+          position: 'left',
+          icon:'🚀'
+        },
+        {
+          href: 'https://www.enconvo.com',
+          label: 'Official Site',
           position: 'right',
         },
       ],
