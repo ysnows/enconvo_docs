@@ -1,15 +1,13 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Internet Browsing
+# Internet Browsing Providers
 
 :::note
-The browsing function allows you to utilize the intelligence of large models and real-time information from search engines simultaneously, improving search efficiency, automating search and solving problems.
+Internet Browsing Providers are services that provide realtime search results from the internet.
 :::
-![](./img/internet_browsing.png)
 
-# Internet Browsing Providers
 
 :::tip
 The default EnconvoAI Search Provider is powered by google search engine, and is free to use for all users.

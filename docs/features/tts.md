@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # TTS (Text-to-Speech)
@@ -9,29 +9,39 @@ TTS (Text-to-Speech) is a feature that converts text into spoken voice output. I
 :::
 ![](./img/tts.png)
 
-# TTS Providers
 
-:::tip
-The default TTS provider is powered by `Edge TTS` and is free to use for all users.
+## How to use TTS
+
+<br/>
+- **Automatically Play TTS Audio** 
+:::info
+When you enable this feature, the TTS audio will be played automatically when the response is received.
 :::
 
-Given Enconvo's powerful customization capabilities, users can customize the TTS engine to meet their own needs. Users can customize the engine through the following steps:
-
-```md
-Preferences -> Service Providers -> TTS -> [Select Providers]
-```
-
-![](./img/tts_settings.png)
+![](./img/Tuji_20240424_235142.9701.png)
 
 
-#### Supported Providers
+- **Play Text** 
+:::info
+You input the text you want to convert to speech and `@TTS` to invoke the TTS feature. 
+:::
 
-- Edget TTS
+![alt text](./img/tts_automatically.png)- 
 
-- System TTS
 
-- Microsoft Azure TTS
+- **Play Document** 
+:::info
+You can play the text in the document by `@Play Document By TTS`.
+:::
 
-- OpenAI TTS
+![alt text](./img/Tuji_20240424_235004.4582.png)
 
-- ElevenLabs TTS
+
+
+- **Save As Audio File** 
+:::info
+You can save the text to audio file by `@Save As Audio File`.
+:::
+
+
+![alt text](./img/Tuji_20240424_232940.4688.png)

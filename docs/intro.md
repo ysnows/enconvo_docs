@@ -21,6 +21,7 @@ sidebar_position: 1
 | [**Text-to-Speech (TTS)**](https://ollama.ai/) | Let AI have the ability to speak, and use TTS to convert any text or document into speech |
 | **Context awareness** | Enconvo can obtain the context of the current application and provide more intelligent AI services based on the context |
 | **Function Providers** | Through Enconvo's functionality providers, you can choose from a variety of service providers, supporting almost all major LLM, TTS, and Internet Search Providers.  |
+| **PopBar** | PopBar allows you to quickly use functions based on the text selected by the mouse.  |
 | **Local & Privacy** | Enconvo allows you to use local models through [Ollama](https://ollama.ai/) and [L M Studio](https://lmstudio.ai/) while respecting your data privacy and security. |
 | **Customizable** | Enconvo provides a highly customizable features, allowing you to customize the your own workflow for your special needs. |
 | **More features** | More features are waiting for you to discover |
