@@ -77,6 +77,10 @@ const config: Config = {
           href: '/changelog',
           label: 'ChangeLog',
           position: 'left',
+        },        {
+          href: '/roadmap',
+          label: 'Roadmap',
+          position: 'left',
         },
         {
           href: 'https://enconvo.features.vote/board',
