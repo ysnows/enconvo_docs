@@ -35,6 +35,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/docs/', // 将 docs 设置为站点的根路径
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
