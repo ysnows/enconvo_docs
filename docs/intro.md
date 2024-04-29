@@ -13,16 +13,18 @@ sidebar_position: 1
 | Feature | Description |
 | --- | --- |
 | **Use AI functions in any application** | Use AI functions without switching applications |
-| **Install and use AI plugins** | Install and use a rich and powerful AI plugin through the Extension Store to meet your various needs |
-| **Create a knowledge base** | Create a knowledge base based on the current document, and dialogue & summarize with the AI assistant |
-| **Convert website to knowledge base** | Download and convert the entire website into a knowledge base, and dialogue & summarize with the AI assistant |
-| **Simplified search** | Simplify the search process, let AI help you automatically 'google it' and give you the final answer |
-| **Code Interpreter** | Let AI automate your work by executing script programs |
-| [**Text-to-Speech (TTS)**](https://ollama.ai/) | Let AI have the ability to speak, and use TTS to convert any text or document into speech |
-| **Context awareness** | Enconvo can obtain the context of the current application and provide more intelligent AI services based on the context |
-| **Function Providers** | Through Enconvo's functionality providers, you can choose from a variety of service providers, supporting almost all major LLM, TTS, and Internet Search Providers.  |
+| **[Extension Store](./features/extension-store)** | Install and use a rich and powerful AI plugin through the Extension Store to meet your various needs |
+| **[Tool Usage](./features/tool-usage)** | You can choose which tools Assistant can use to help you complete your work. All extensions in the Extension Store can be used as tools by Assistant. |
+| **[Speak to Assistant](./features/talk-to-assistant)** | Based on OpenAI's Whisper model, you can now have voice conversations with an AI assistant. |
+| **[Create a knowledge base](./features/knowledge-base)** | Create a knowledge base based on the current document, and dialogue & summarize with the AI assistant |
+| **[Convert website to knowledge base](./features/knowledge-base)** | Download and convert the entire website into a knowledge base, and dialogue & summarize with the AI assistant |
+| **[Internet Browsing](./features/internet-browsing)** | Simplify the search process, let AI help you automatically 'google it' and give you the final answer |
+| **[Code Interpreter](./features/code-interpreter)** | Let AI automate your work by executing script programs |
+| [**[Text-to-Speech (TTS)](./features/tts)** ] |  Let AI have the ability to speak, and use TTS to convert any text or document into speech |
+| **[Context awareness](./features/context-awareness)** | Enconvo can obtain the context of the current application and provide more intelligent AI services based on the context |
+| **[Function Providers](./providers/)** | Through Enconvo's functionality providers, you can choose from a variety of service providers, supporting almost all major LLM, TTS, and Internet Search Providers.  |
 | **PopBar** | PopBar allows you to quickly use functions based on the text selected by the mouse.  |
-| **Local & Privacy** | Enconvo allows you to use local models through [Ollama](https://ollama.ai/) and [L M Studio](https://lmstudio.ai/) while respecting your data privacy and security. |
+| **[Local LLM](./features/local-privacy)** | Enconvo allows you to use local models through [Ollama](https://ollama.ai/) and [L M Studio](https://lmstudio.ai/) while respecting your data privacy and security. |
 | **Customizable** | Enconvo provides a highly customizable features, allowing you to customize the your own workflow for your special needs. |
 | **More features** | More features are waiting for you to discover |
 
