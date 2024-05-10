@@ -1,0 +1,8 @@
+{
+  "label": "Talk To Webpage  ",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Interact with the web page"
+  }
+}
