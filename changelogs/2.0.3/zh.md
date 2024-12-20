@@ -12,10 +12,12 @@
    - Summarize YouTube : 对 YouTube 视频进行摘要
    - Youtube Transcript Loader : 加载 YouTube 视频的字幕，并可以保存为 SRT，TXT 文件
    - Youtube context awareness : 对 当前浏览器打开 YouTube 视频进行上下文感知，推荐对应的 Commands
+   - 源代码开源： https://github.com/Enconvo/YouTube
 
 3. Code Runner 插件:
 
    - 可以运行 shell、nodejs、python、applescript 代码，让你可以使用自己属性的编程语言自由扩展 Enconvo 的能力
+   - 源代码开源： https://github.com/Enconvo/Code-Runner
 
 4. Straico 集成：
 
@@ -26,6 +28,7 @@
      - Create Straico RAG : 创建 Straico RAG
      - Straico RAG : 和 在 Straico 平台创建的 RAG 进行对话
      - Straico Agent : 和 在 Straico 平台创建的 Agent 进行对话
+   - 源代码开源： https://github.com/Enconvo/straico
 
 5. Google Gemini 更新： 添加对`gemini-2.0-flash-exp`,`gemini-2.0-flash-thinking-exp-1219` , `gemini-exp-1206`模型的支持
 

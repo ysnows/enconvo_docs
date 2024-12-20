@@ -16,6 +16,7 @@
 - Summarize YouTube: Generate concise summaries of YouTube videos
 - YouTube Transcript Loader: Extract video subtitles , or save as SRT or TXT files
 - YouTube Context Awareness: Smart recommendation of relevant commands based on currently open YouTube videos in the browser
+- Source Code : https://github.com/Enconvo/YouTube
 
 <br/>
 
@@ -23,6 +24,7 @@
 
 - You can run shell, Node.js, Python, and AppleScript code
 - Empowers users to extend EnConvo's capabilities using their preferred programming languages
+- Source Code： https://github.com/Enconvo/Code-Runner
 
 <br/>
 
@@ -35,6 +37,7 @@
   - Create Straico RAG: Create new Straico RAG (Retrieval-Augmented Generation)
   - Straico RAG: Chat with RAG systems created on the Straico platform
   - Straico Agent: Communicate with agents created on the Straico platform
+- Source Code： https://github.com/Enconvo/straico
 
 <br/>
 
