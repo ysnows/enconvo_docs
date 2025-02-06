@@ -50,3 +50,6 @@
 - *Conch TTS*: Split into chinese and international servers
 - *LM Studio*: Added model list display
 - Fixed straico-related issues
+
+
+## Beware: The AI agent will consumes additional tokens, based on tools selected and task.
