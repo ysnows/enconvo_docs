@@ -1,82 +1,185 @@
 <!-- Enconvo 2.1.8 Changelog -->
-<h3>Enconvo 2.1.8 Changelog (2025-04-22) 🚀</h3>
+<div class="changelog">
+  <h3 class="changelog-title">Enconvo 2.1.8 Changelog (2025-04-22) 🚀</h3>
 
-<br />
+  <br />
 
-<!-- New Features Section -->
-<h4>New Features 🎉</h4>
+  <!-- New Features Section -->
+  <div class="section">
+    <h4 class="section-title">✨ New Features</h4>
 
-<blockquote>
-  <ul>
-    <!-- Mini SmartBar -->
-    <li>Introduced Mini SmartBar - A compact desktop companion
-      <blockquote>
-        A persistent mini version of SmartBar that offers:
+    <div class="feature-list">
+      <!-- Mini SmartBar -->
+      <div class="feature-item">
+        <h5>🎯 Mini SmartBar - A compact desktop companion</h5>
+        <div class="feature-details">
+          <p>A persistent mini version of SmartBar that offers:</p>
+          <ul>
+            <li>Quick access to features (Speak, Live Screen, etc.)</li>
+            <li>Real-time status display</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Hailuo Voice -->
+      <div class="feature-item">
+        <h5>🔊 Hailuo Voice</h5>
+        <p>Integrated as default TTS Provider (Enconvo Cloud Plan)</p>
+      </div>
+
+      <!-- OCR Providers -->
+      <div class="feature-item">
+        <h5>📝 New OCR Providers</h5>
         <ul>
-          <li>Quick access to features (Speak, Live Screen, etc.)</li>
-          <li>Real-time status display</li>
+          <li><strong>Apple Native OCR:</strong> Fast, offline, privacy-focused local processing</li>
+          <li><strong>Mistral OCR:</strong> Integrated solution supporting both Enconvo Cloud Plan and custom Mistral API Keys</li>
         </ul>
-      </blockquote>
-    </li>
-    <!-- Hailuo Voice -->
-    <li>Integrated Hailuo Voice as default TTS Provider (Enconvo Cloud Plan)</li>
-    <!-- OCR Providers -->
-    <li>New OCR Providers
-      <blockquote>
+      </div>
+
+      <!-- Mistral Models -->
+      <div class="feature-item">
+        <h5>🤖 New Mistral Models</h5>
+        <div class="model-list">
+          <div class="model-item">
+            <span class="model-name">Mistral Large</span>
+            <span class="model-points">300 points per message</span>
+          </div>
+          <div class="model-item">
+            <span class="model-name">Mistral Pixtral Large</span>
+            <span class="model-points">300 points per message</span>
+          </div>
+          <div class="model-item">
+            <span class="model-name">Mistral Codestral</span>
+            <span class="model-points">45 points per message</span>
+          </div>
+          <div class="model-item">
+            <span class="model-name">Mistral Small</span>
+            <span class="model-points">Free</span>
+          </div>
+          <div class="model-item">
+            <span class="model-name">Mistral Pixtral 12B 2409</span>
+            <span class="model-points">Free</span>
+          </div>
+          <div class="model-item">
+            <span class="model-name">Mistral Nemo</span>
+            <span class="model-points">Free</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Speech-to-Text -->
+      <div class="feature-item">
+        <h5>🎤 Speech-to-Text Provider</h5>
+        <p>Introduced Enconvo Cloud Plan supporting:</p>
         <ul>
-          <li>Apple Native OCR: Fast, offline, privacy-focused local processing</li>
-          <li>Mistral OCR: Integrated solution supporting both Enconvo Cloud Plan and custom Mistral API Keys</li>
+          <li>Whisper turbo</li>
+          <li>GPT-4o-transcribe</li>
+          <li>GPT-4o-mini-transcribe</li>
         </ul>
-      </blockquote>
-    </li>
-    <!-- Mistral Models -->
-    <li>Added new Mistral models to Enconvo Cloud Plan
-      <blockquote>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <!-- Improvements Section -->
+  <div class="section">
+    <h4 class="section-title">🔧 Improvements</h4>
+
+    <div class="improvements-list">
+      <!-- System Improvements -->
+      <div class="improvement-item">
+        <h5>🚀 System Enhancements</h5>
         <ul>
-          <li>Mistral Large (300 points per message)</li>
-          <li>Mistral Pixtral Large (300 points per message)</li>
-          <li>Mistral Codestral (45 points per message)</li>
-          <li>Mistral Small (Free)</li>
-          <li>Mistral Pixtral 12B 2409 (Free)</li>
-          <li>Mistral Nemo (Free)</li>
+          <li>Startup optimization and bug fixes for improved launch reliability</li>
+          <li>Enhanced Image Generation with Flux1.1 pro (Enconvo Cloud Plan)</li>
+          <li>Added close button to Voice Input Method</li>
+          <li>Added direct model configuration in Chat Window</li>
         </ul>
-      </blockquote>
-    </li>
-    <!-- Speech-to-Text -->
-    <li>Introduced Enconvo Cloud Plan for Speech-to-Text Provider
-      <blockquote>
-        Supporting whisper turbo, gpt-4o-transcribe, and gpt-4o-mini-transcribe
-      </blockquote>
-    </li>
-  </ul>
-</blockquote>
+      </div>
 
-<br />
-
-<!-- Improvements Section -->
-<h4>Improvements 🔧</h4>
-
-<blockquote>
-  <ul>
-    <!-- Various Improvements -->
-    <li>Startup optimization and bug fixes for improved launch reliability</li>
-    <li>Enhanced Image Generation with Flux1.1 pro (Enconvo Cloud Plan)</li>
-    <li>Added close button to Voice Input Method</li>
-    <li>Added direct model configuration in Chat Window</li>
-    <!-- Gemini Support -->
-    <li>Expanded Google Gemini model support
-      <blockquote>
+      <!-- Gemini Support -->
+      <div class="improvement-item">
+        <h5>🌟 Google Gemini Updates</h5>
         <ul>
           <li>Added gemini-2.0-flash-exp-image-generation for in-chat image generation</li>
           <li>Added gemini-2.5-flash-preview-04-17 model</li>
         </ul>
-      </blockquote>
-    </li>
-    <!-- OCR and Audio Improvements -->
-    <li>OCR Improved: Automatic language detection with Japanese support</li>
-    <li>Optimized audio auto play logic and fixed playback issues</li>
-    <li>Enhanced Speech-to-Text stability</li>
-  </ul>
-</blockquote>
+      </div>
 
-<br />
+      <!-- OCR and Audio -->
+      <div class="improvement-item">
+        <h5>📊 OCR & Audio Improvements</h5>
+        <ul>
+          <li>OCR: Automatic language detection with Japanese support</li>
+          <li>Optimized audio auto play logic and fixed playback issues</li>
+          <li>Enhanced Speech-to-Text stability</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <br />
+</div>
+
+<style>
+.changelog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.changelog-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #34495e;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.feature-item, .improvement-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.feature-item h5, .improvement-item h5 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.model-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.model-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.model-points {
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+</style>
