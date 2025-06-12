@@ -1,4 +1,4 @@
-# Enconvo 2.2.2 Changelog (2025-06-12) 🚀
+# Enconvo 2.2.2 Changelog (2025-06-11) 🚀
 
 ## New Features
 
