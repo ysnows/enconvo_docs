@@ -1,6 +1,6 @@
 # Enconvo 2.2.1 Changelog (2025-06-07) 🚀
 
-# Warning: Due to the need to enable the new Credentials management system, previously configured settings need to be reconfigured, and previously created Commands will be lost. Please save your currently used Prompts and API keys before upgrading.
+## Warning: Due to the need to enable the new Credentials management system, previously configured settings need to be reconfigured, and previously created Commands will be lost. Please save your currently used Prompts and API keys before upgrading.
 
 ## Workflow - Build your AI automation workflow using built-in tools and numerous MCP Servers
 
