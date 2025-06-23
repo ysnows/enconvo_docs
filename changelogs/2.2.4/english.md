@@ -17,6 +17,7 @@
 
 - Added more writing tools: `proofread`, `rewrite`, `changeToneToProfessional`, `makeConcise`, `extractKeyPoints`, `convertToList`, `convertToTable`
 - Added `AI Editor` command to edit current text according to user instructions, similar to Cursor.app's `Quick Edit` feature but can be used in any application
+- Added `OpenAI Image Generation Bot` command to generate/edit images using OpenAI's `gpt-image-1` model
 
 ## New Extension (Fal.ai)
 

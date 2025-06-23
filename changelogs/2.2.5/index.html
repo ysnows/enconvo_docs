@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enconvo 2.2.5 Changelog</title>
+  </head>
+  
+
+  <body>
+
+<div class="changelog">
+  <header class="changelog-header">
+    <h1 class="changelog-title">Enconvo 2.2.5</h1>
+    <p class="changelog-date">Released on June 23, 2025</p>
+  </header>
+
+  <!-- Mini SmartBar Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">📱</span>
+      Mini SmartBar
+    </h2>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <h3>🎯 Custom Commands Support</h3>
+      </div>
+      <p class="feature-description">
+        Mini SmartBar now supports custom commands, allowing users to freely add commands that suit their needs, with support for Application Awareness and Browser Tab URL Awareness
+      </p>
+    </div>
+  </section>
+
+  <!-- Dictation Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">🎤</span>
+      Dictation
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>⚡ Post Actions Feature</h3>
+        <p>Added Dictation Post Actions feature, allowing users to configure actions to execute after Dictation ends, such as Fix Spelling or Translate or customized workflow</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>🏷️ Renamed Voice Input</h3>
+        <p>Renamed Voice Input to Dictation</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prompt Management Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">💬</span>
+      Prompt Management
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>🏪 Prompt Store</h3>
+        <p>Added Prompt Store, allowing users to install curated prompts</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>📋 Installed Prompt Management</h3>
+        <p>Added Installed Prompt management, allowing users to manage their installed and created prompts</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>➕ Create New Prompt</h3>
+        <p>Added Create new prompt command, allowing users to create their own prompts</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SmartBar Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">⚡</span>
+      SmartBar
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>⌨️ Navigation Bindings</h3>
+        <p>Added SmartBar Navigation bindings, users can configure navigation using Control+P and Control+N or vim-like Control+J/Control+K</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>🗑️ Auto Clear Conversation</h3>
+        <p>Added SmartBar Auto clear conversation, allowing users to configure automatic conversation clearing time</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Commands Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">⌘</span>
+      New Commands
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>🇫🇷 French Teacher</h3>
+        <p>French Teacher: A French teacher to help users learn French</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optimized Features Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">⚡</span>
+      Optimized Features
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>🚫 Disable Command Feature</h3>
+        <p>Disable command feature: you can disable commands you don't need, disabled commands won't appear in SmartBar</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>🌐 PopBar URL Detection</h3>
+        <p>PopBar now supports detecting current browser tab URL to display different toolbars accordingly</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>⌨️ Shortcut Settings UI/UX</h3>
+        <p>Shortcut settings UI/UX optimization</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bug Fixes Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">🐛</span>
+      Bug Fixes
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small fix">
+        <h3>🎤 Dictation Bar Issue</h3>
+        <p>Fixed issue where Dictation Bar couldn't be closed</p>
+      </div>
+
+      <div class="feature-card small fix">
+        <h3>📍 PopBar Position Issue</h3>
+        <p>Fixed issue where PopBar window position exceeded screen boundaries</p>
+      </div>
+
+      <div class="feature-card small fix">
+        <h3>⌨️ Shortcut Settings Issue</h3>
+        <p>Fixed issue where Shortcut settings would invalidate existing shortcuts</p>
+      </div>
+
+      <div class="feature-card small fix">
+        <h3>⚡ PopBar Actions Issue</h3>
+        <p>Fixed issues with Post Action not working in PopBar and auto replace not functioning</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.changelog {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.changelog-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.changelog-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.changelog-date {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.feature-section {
+  padding: 2.5rem 2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.feature-section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+.section-icon {
+  font-size: 1.25rem;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card.small {
+  padding: 1.25rem;
+}
+
+.feature-card.fix {
+  border-left: 4px solid #10b981;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.feature-header h3, .feature-card h3 {
+  color: #2d3748;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.feature-description, .feature-card p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.feature-highlight {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid #667eea;
+}
+
+.feature-highlight p {
+  color: #2d3748;
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem 0.5rem;
+  }
+  
+  .changelog-header {
+    padding: 2rem 1rem;
+  }
+  
+  .changelog-title {
+    font-size: 2rem;
+  }
+  
+  .feature-section {
+    padding: 1.5rem 1rem;
+  }
+  
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+  </body>
+</html>
