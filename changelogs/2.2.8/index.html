@@ -3,47 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Enconvo 2.2.7 Changelog</title>
+    <title>Enconvo 2.2.8 Changelog</title>
   </head>
 
   <body>
 
 <div class="changelog">
   <header class="changelog-header">
-    <h1 class="changelog-title">Enconvo 2.2.7</h1>
-    <p class="changelog-date">Released on July 22, 2025</p>
+    <h1 class="changelog-title">Enconvo 2.2.8</h1>
+    <p class="changelog-date">Released on August 07, 2025</p>
+    <div class="changelog-image">
+      <img src="https://docs.enconvo.com/assets/images/changelog_2.2.8-b92dc8379d92a7603ab155b53f95baaa.png" alt="Enconvo 2.2.8 Changelog" />
+    </div>
   </header>
 
-  <!-- Speech Recognition Section -->
+  <!-- Extension Store Section -->
   <section class="feature-section">
     <h2 class="section-title">
-      <span class="section-icon">🎤</span>
-      Added Speech Recognition Model
+      <span class="section-icon">🏪</span>
+      Brand New Extension Store
+    </h2>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>⚡ One-click Installation</h3>
+        <p>Say goodbye to tedious configuration</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>📦 Multiple Registries</h3>
+        <p>Choose from Enconvo official, Smithery, or mcphub extension sources</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>📁 DXT One-Click Installation</h3>
+        <p>Quickly install plugins from dxt files</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>🔄 Extension Upgrade</h3>
+        <p>Independent extension upgrades with one-click functionality</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>🔧 Manual Installation</h3>
+        <p>Support for Stdio/Http/Sse type MCP extensions</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- New AI Models Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">🤖</span>
+      New AI Models
     </h2>
 
     <div class="feature-card">
       <div class="feature-header">
-        <h3>🚀 MLX Parakeet TDT 0.6B v2</h3>
+        <h3>🎯 OpenAI OSS Models</h3>
       </div>
       <p class="feature-description">
-        Speech-to-Text Provider - Added `mlx-community/parakeet-tdt-0.6b-v2` support, faster speed and better quality, local & privacy-focused (first use may be slower as it needs to download the model)
+        OpenAI gpt-oss-120b and gpt-oss-20b
+      </p>
+      <div class="feature-highlight">
+        <p>⏰ Limited Time Free - Ending on September 30th</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Link Reader Providers Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">🔗</span>
+      Link Reader Providers
+    </h2>
+
+    <div class="feature-highlight">
+      <p>Added local fetch provider: no longer rely on paid network services such as firecrawl/jina</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature-card small">
+        <h3>🏠 Local Fetch</h3>
+        <p>(locally, free)</p>
+      </div>
+
+      <div class="feature-card small">
+        <h3>🕷️ Crawl4AI</h3>
+        <p>(locally, free)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Website Crawler Providers Section -->
+  <section class="feature-section">
+    <h2 class="section-title">
+      <span class="section-icon">🌐</span>
+      Website Crawler Providers
+    </h2>
+
+    <div class="feature-highlight">
+      <p>Added local website crawler provider: no longer rely on paid network services such as firecrawl</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <h3>🕷️ Crawl4AI</h3>
+      </div>
+      <p class="feature-description">
+        (locally, free)
       </p>
     </div>
   </section>
 
-  <!-- New AI Model Provider Section -->
+  <!-- New Features Section -->
   <section class="feature-section">
     <h2 class="section-title">
-      <span class="section-icon">🤖</span>
-      New AI Model Provider
+      <span class="section-icon">✨</span>
+      New Features
     </h2>
 
     <div class="feature-card">
       <div class="feature-header">
-        <h3>🏢 302.ai</h3>
+        <h3>📊 Points Usage Log</h3>
       </div>
       <p class="feature-description">
-        Added 302.ai LLM provider
+        Added points usage log page (Settings->Account->Points Usage)
       </p>
     </div>
   </section>
@@ -55,46 +141,13 @@
       Optimized Features
     </h2>
 
-    <div class="feature-grid">
-      <div class="feature-card small">
-        <h3>📱 App Size Optimization</h3>
-        <p>Reduced application size from 367MB to 224MB</p>
+    <div class="feature-card">
+      <div class="feature-header">
+        <h3>🔌 MCP Server Auto-shutdown</h3>
       </div>
-
-      <div class="feature-card small">
-        <h3>🌙 Moonshot BaseURL Support</h3>
-        <p>Added support for custom BaseURL settings: `https://api.moonshot.ai/v1` or `https://api.moonshot.cn/v1`</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Bug Fixes Section -->
-  <section class="feature-section">
-    <h2 class="section-title">
-      <span class="section-icon">🐛</span>
-      Bug Fixes
-    </h2>
-
-    <div class="feature-grid">
-      <div class="feature-card small fix">
-        <h3>📹 Online Video Downloader</h3>
-        <p>Fixed Online Video Downloader `audio only` option, resolved convert to mp4 long processing time issue, and fixed missing mp4 suffix problem</p>
-      </div>
-
-      <div class="feature-card small fix">
-        <h3>🔧 MCP Runtime</h3>
-        <p>Fixed MCP runtime error issues</p>
-      </div>
-
-      <div class="feature-card small fix">
-        <h3>🌐 YouTube/Link Summarizer</h3>
-        <p>Fixed Summarize YouTube/Link response language setting not taking effect</p>
-      </div>
-
-      <div class="feature-card small fix">
-        <h3>🔥 Fireworks.ai</h3>
-        <p>Resolved fireworks.ai error issues</p>
-      </div>
+      <p class="feature-description">
+        MCP servers automatically shut down after 3 minutes of inactivity
+      </p>
     </div>
   </section>
 </div>
@@ -143,6 +196,20 @@ body {
   font-size: 1.1rem;
   opacity: 0.9;
   font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.changelog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changelog-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .feature-section {

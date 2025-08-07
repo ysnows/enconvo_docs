@@ -1,5 +1,7 @@
 # Enconvo 2.2.8 Changelog (2025-08-07) 🚀
 
+![](https://docs.enconvo.com/assets/images/changelog_2.2.8-b92dc8379d92a7603ab155b53f95baaa.png)
+
 ## Brand New Extension Store
 
 - **One-click installation** , Say goodbye to tedious configuration
