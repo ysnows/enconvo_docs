@@ -67,43 +67,45 @@
         </div>
       </section>
 
-      <!-- New TTS Models Section -->
+      <!-- New Features Section -->
       <section class="feature-section">
-        <h2 class="section-title">
-          <span class="section-icon">🎤</span>
-          New TTS Models
-        </h2>
+        <div class="feature-grid">
+          <!-- New TTS Models -->
+          <div class="feature-column">
+            <h2 class="section-title">
+              <span class="section-icon">🎤</span>
+              New TTS Models
+            </h2>
 
-        <div class="feature-card">
-          <div class="feature-header">
-            <h3>🔊 MiniMax Speech 2.5 Model</h3>
+            <div class="feature-card">
+              <div class="feature-header">
+                <h3>🔊 MiniMax Speech 2.5 Model</h3>
+              </div>
+              <p class="feature-description">
+                Enhanced Multilingual Expressiveness Exceptional Voice
+              </p>
+            </div>
           </div>
-          <p class="feature-description">
-            Enhanced Multilingual Expressiveness Exceptional Voice
-          </p>
+
+          <!-- New MCP Server -->
+          <div class="feature-column">
+            <h2 class="section-title">
+              <span class="section-icon">🔧</span>
+              New MCP Server
+            </h2>
+
+            <div class="feature-card">
+              <div class="feature-header">
+                <h3>📊 Excel MCP Server</h3>
+              </div>
+              <p class="feature-description">
+                Lets you manipulate Excel files without needing Microsoft Excel installed. Create, read, and modify Excel workbooks with your AI agent.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
-
-
-
-    <section class="feature-section">
-      <h2 class="section-title">
-        <span class="section-icon">🎤</span>
-        New TTS Models
-      </h2>
-
-      <div class="feature-card">
-        <div class="feature-header">
-          <h3>🔊 MiniMax Speech 2.5 Model</h3>
-        </div>
-        <p class="feature-description">
-          Enhanced Multilingual Expressiveness Exceptional Voice
-        </p>
-      </div>
-    </section>
-  </div>
-
 
     <style>
       * {
@@ -216,6 +218,11 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 1rem;
+      }
+
+      .feature-column {
+        display: flex;
+        flex-direction: column;
       }
 
       .feature-header h3,
