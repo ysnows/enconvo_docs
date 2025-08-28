@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enconvo 2.2.11 Changelog</title>
+  </head>
+
+  <body>
+    <div class="changelog">
+      <header class="changelog-header">
+        <h1 class="changelog-title">Enconvo 2.2.11</h1>
+        <p class="changelog-date">Released on August 28, 2025</p>
+      </header>
+
+      <!-- New Features Section -->
+      <section class="feature-section">
+        <h2 class="section-title">
+          <span class="section-icon">✨</span>
+          New Features
+        </h2>
+
+        <div class="feature-card">
+          <div class="feature-header">
+            <h3>🎯 ChatGPT Plus/Pro in Enconvo</h3>
+          </div>
+          <p class="feature-description">
+            Use your ChatGPT Plus/Pro subscription in Enconvo, no need API key anymore.
+          </p>
+        </div>
+      </section>
+
+      <!-- New Models Section -->
+      <section class="feature-section">
+        <h2 class="section-title">
+          <span class="section-icon">🤖</span>
+          New Models
+        </h2>
+
+        <div class="feature-card">
+          <div class="feature-header">
+            <h3>🍌 Nano Banana (Gemini 2.5 Flash Image)</h3>
+          </div>
+          <p class="feature-description">
+            Google DeepMind's Gemini 2.5 Flash model with image generation and editing capabilities, offering state-of-the-art performance in photo-realistic multi-turn edits at exceptional speeds.
+          </p>
+        </div>
+      </section>
+
+      <!-- Optimized Features Section -->
+      <section class="feature-section">
+        <h2 class="section-title">
+          <span class="section-icon">⚡</span>
+          Optimized Features
+        </h2>
+
+        <div class="feature-grid">
+          <div class="feature-card small">
+            <h3>🗜️ Image Compression</h3>
+            <p>
+              Images are now compressed before being sent to models to improve performance and reduce costs.
+            </p>
+          </div>
+
+          <div class="feature-card small">
+            <h3>⚙️ Node Performance Optimization</h3>
+            <p>
+              Automatically clean up idle workers (workers with no activity for 3 minutes are automatically terminated).
+            </p>
+          </div>
+
+          <div class="feature-card small">
+            <h3>📺 Youtube Downloader Update</h3>
+            <p>
+              Upgraded yt-dlp to version 2025.08.22 for better video downloading support.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bug Fixes Section -->
+      <section class="feature-section">
+        <h2 class="section-title">
+          <span class="section-icon">🔧</span>
+          Bug Fixes
+        </h2>
+
+        <div class="feature-grid">
+          <div class="feature-card small fix">
+            <h3>🎥 Video Compression Fix</h3>
+            <p>
+              Fixed incorrect path handling issue in video compression
+            </p>
+          </div>
+
+          <div class="feature-card small fix">
+            <h3>💻 Terminal.app Sync Fix</h3>
+            <p>
+              Fixed Terminal.app not syncing issue
+            </p>
+          </div>
+
+          <div class="feature-card small fix">
+            <h3>🧠 AI Model Display Fix</h3>
+            <p>
+              Fixed AI model global display issue
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+          sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 2rem 1rem;
+      }
+
+      .changelog {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+      }
+
+      .changelog-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 3rem 2rem;
+        text-align: center;
+      }
+
+      .changelog-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.02em;
+      }
+
+      .changelog-date {
+        font-size: 1.1rem;
+        opacity: 0.9;
+        font-weight: 400;
+        margin-bottom: 2rem;
+      }
+
+      .changelog-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .changelog-image iframe {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .feature-section {
+        padding: 2.5rem 2rem;
+        border-bottom: 1px solid #f0f0f0;
+      }
+
+      .feature-section:last-child {
+        border-bottom: none;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 1.5rem;
+      }
+
+      .section-icon {
+        font-size: 1.25rem;
+      }
+
+      .feature-card {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid #f0f0f0;
+        transition: all 0.3s ease;
+        margin-bottom: 1rem;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      }
+
+      .feature-card.small {
+        padding: 1.25rem;
+      }
+
+      .feature-card.fix {
+        border-left: 4px solid #10b981;
+      }
+
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+
+      .feature-column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .feature-header h3,
+      .feature-card h3 {
+        color: #2d3748;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .feature-description,
+      .feature-card p {
+        color: #4a5568;
+        line-height: 1.6;
+        margin-bottom: 0;
+      }
+
+      .feature-highlight {
+        background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-top: 1rem;
+        border-left: 4px solid #667eea;
+      }
+
+      .feature-highlight p {
+        color: #2d3748;
+        font-style: italic;
+        margin: 0;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 1rem 0.5rem;
+        }
+
+        .changelog-header {
+          padding: 2rem 1rem;
+        }
+
+        .changelog-title {
+          font-size: 2rem;
+        }
+
+        .feature-section {
+          padding: 1.5rem 1rem;
+        }
+
+        .feature-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .changelog-image iframe {
+          width: 100%;
+          height: 200px;
+        }
+      }
+    </style>
+  </body>
+</html>
