@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enconvo 2.2.15 Changelog</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div class="header">
+        <h1 class="title">Enconvo 2.2.15</h1>
+        <p class="subtitle">Released on September 11, 2025 🚀</p>
+      </div>
+
+      <!-- Web Search Enhancements Section -->
+      <div class="section">
+        <h2 class="section-title">🔍 Web Search Enhancements</h2>
+
+        <div class="card">
+          <h3 class="card-title">🔍 Gemini Search</h3>
+          <p class="card-description">
+            You can now use Google Gemini for web search, and with Gemini OAuth support, enjoying 2000 free requests per day without token limitations
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🎨 Search UI/UX Optimization</h3>
+          <p class="card-description">
+            You can quickly specify the AI search provider on SmartBar
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🔧 Anthropic Built-in Search</h3>
+          <p class="card-description">
+            Support for using Anthropic's built-in web search tool (enable Auto option)
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🔧 OpenAI Built-in Search</h3>
+          <p class="card-description">
+            Support for using OpenAI's built-in web search tool (enable Auto option)
+          </p>
+        </div>
+      </div>
+
+      <!-- Image Generation Enhancements Section -->
+      <div class="section">
+        <h2 class="section-title">🎨 Image Generation Enhancements</h2>
+
+        <div class="card">
+          <h3 class="card-title">🎨 Image Generation UI/UX Optimization</h3>
+          <p class="card-description">
+            You can quickly specify the image generation provider on SmartBar
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">➕ Added fal.ai provider</h3>
+          <p class="card-description">
+            Support for Seedream 4.0
+          </p>
+        </div>
+      </div>
+
+      <!-- OCR Enhancements Section -->
+      <div class="section">
+        <h2 class="section-title">📄 OCR Enhancements</h2>
+
+        <div class="card">
+          <h3 class="card-title">🤖 AI Model OCR Provider</h3>
+          <p class="card-description">
+            You can now choose to use AI models for OCR, supporting all vision models
+          </p>
+        </div>
+      </div>
+
+      <!-- Improvements Section -->
+      <div class="section">
+        <h2 class="section-title">🔧 Improvements</h2>
+
+        <div class="card">
+          <h3 class="card-title">💻 GPT-5-codex</h3>
+          <p class="card-description">
+            You can now use GPT-5-codex for code-related tasks (requires OpenAI OAuth method)
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">🌐 Browser Tab Context</h3>
+          <p class="card-description">
+            Vivaldi, Wavebox, and other Chromium-based browsers now support getting current tab context
+          </p>
+        </div>
+      </div>
+
+      <!-- Bug Fixes Section -->
+      <div class="section">
+        <h2 class="section-title">🔧 Bug Fixes</h2>
+
+        <div class="grid">
+          <div class="card fix">
+            <h3 class="card-title">✅ Screenshot OCR Issues</h3>
+            <p class="card-description">Fixed Screenshot OCR issues</p>
+          </div>
+
+          <div class="card fix">
+            <h3 class="card-title">✅ Claude Authorization</h3>
+            <p class="card-description">Optimized Claude authorization</p>
+          </div>
+
+          <div class="card fix">
+            <h3 class="card-title">✅ Qwen OAuth</h3>
+            <p class="card-description">Improved Qwen OAuth</p>
+          </div>
+
+          <div class="card fix">
+            <h3 class="card-title">✅ SmartBar Actions</h3>
+            <p class="card-description">Fixed issue where SmartBar opened from PopBar had no actions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.5;
+        color: #0f172a;
+        background: #f8fafc;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
+
+      .subtitle {
+        font-size: 1.125rem;
+        color: #64748b;
+      }
+
+      .section {
+        margin-bottom: 3rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .subsection {
+        margin-bottom: 2rem;
+      }
+
+      .subsection-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #334155;
+        margin-bottom: 1rem;
+      }
+
+      .card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        transition: all 0.2s ease;
+      }
+
+      .card:hover {
+        border-color: #cbd5e1;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .card.compact {
+        padding: 1rem;
+      }
+
+      .card.fix {
+        border-left: 4px solid #10b981;
+        background: #f0fdf4;
+      }
+
+      .card-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
+
+      .card h4.card-title {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+      }
+
+      .card-description {
+        color: #64748b;
+        font-size: 0.875rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        .title {
+          font-size: 2rem;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </body>
+</html>
