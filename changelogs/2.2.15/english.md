@@ -1,4 +1,4 @@
-# Enconvo 2.2.15 Changelog (2025-09-11) 🚀
+# Enconvo 2.2.15 Changelog (2025-09-13) 🚀
 
 ## Web Search Enhancements
 

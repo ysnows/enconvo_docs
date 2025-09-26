@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enconvo 2.2.16 Changelog</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div class="header">
+        <h1 class="title">Enconvo 2.2.16</h1>
+        <p class="subtitle">Released on September 26, 2025 🚀</p>
+      </div>
+
+      <!-- New Features Section -->
+      <div class="section">
+        <h2 class="section-title">✨ New Features</h2>
+        <div class="card">
+          <h3 class="card-title">🖱️ Finder Integration</h3>
+          <p class="card-description">
+            Added Finder right click menu: Add to Enconvo
+          </p>
+        </div>
+      </div>
+
+      <!-- SmartBar Section -->
+      <div class="section">
+        <h2 class="section-title">🧠 SmartBar</h2>
+        <div class="card">
+          <h3 class="card-title">📚 Knowledge Base Configuration</h3>
+          <p class="card-description">
+            You can now configure the <b>Knowledge base used by Bot</b> directly on SmartBar.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">🎬 Create Video Shortcut</h3>
+          <p class="card-description">
+            Directly enable <b>"Create Video"</b> on the SmartBar.
+          </p>
+        </div>
+      </div>
+
+      <!-- Video Generation Provider Section -->
+      <div class="section">
+        <h2 class="section-title">🎥 Video Generation Provider Added</h2>
+        <div class="card">
+          <h3 class="card-title">⚡ Kling Video v2.5 Turbo Pro</h3>
+          <p class="card-description">
+            Added <code>Kling Video v2.5 Turbo Pro</code> video generation model.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">🌊 Wan 2.5 Preview</h3>
+          <p class="card-description">
+            Added <code>Wan 2.5 Preview</code> video generation model. (High demand, long waiting times)
+          </p>
+        </div>
+      </div>
+
+      <!-- Apple Shortcuts Section -->
+      <div class="section">
+        <h2 class="section-title">🍏 Apple Shortcuts</h2>
+        <div class="card">
+          <h3 class="card-title">🔗 Apple Shortcuts Support</h3>
+          <p class="card-description">
+            Added <code>Apple Shortcuts</code> support. You can use <code>Apple Shortcuts</code> in Workflow, Agent, PopBar, SmartBar, etc.
+          </p>
+        </div>
+      </div>
+
+      <!-- Workflow Section -->
+      <div class="section">
+        <h2 class="section-title">🔄 Workflow</h2>
+        <div class="card">
+          <h3 class="card-title">🧹 Workflow Optimization</h3>
+          <p class="card-description">
+            Optimized the logic of deleting edges and nodes in workflow.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">🔗 Edge Reconnection</h3>
+          <p class="card-description">
+            Added the ability to reconnect edges in workflow.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">🐞 Variable Drag Fix</h3>
+          <p class="card-description">
+            Fixed workflow drag variable is undefined.
+          </p>
+        </div>
+      </div>
+
+      <!-- Chat with File Section -->
+      <div class="section">
+        <h2 class="section-title">📁 Chat with File</h2>
+        <div class="card">
+          <h3 class="card-title">💬 File Chat Optimization</h3>
+          <p class="card-description">
+            Optimized file chat (chat mode can directly chat with files).
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">📖 Document Reading Tool</h3>
+          <p class="card-description">
+            Added <code>read document type file</code> tool to agent model, which can read PDF, EPUB, audio, video, Word, PPT documents.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bug Fixes Section -->
+      <div class="section">
+        <h2 class="section-title">🔧 Bug Fixes</h2>
+
+        <div class="grid">
+          <div class="card fix">
+            <h3 class="card-title">✅ Screenshot OCR Issues</h3>
+            <p class="card-description">Fixed Screenshot OCR issues</p>
+          </div>
+
+          <div class="card fix">
+            <h3 class="card-title">✅ Claude Authorization</h3>
+            <p class="card-description">Optimized Claude authorization</p>
+          </div>
+
+          <div class="card fix">
+            <h3 class="card-title">✅ Qwen OAuth</h3>
+            <p class="card-description">Improved Qwen OAuth</p>
+          </div>
+
+          <div class="card fix">
+            <h3 class="card-title">✅ SmartBar Actions</h3>
+            <p class="card-description">Fixed issue where SmartBar opened from PopBar had no actions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.5;
+        color: #0f172a;
+        background: #f8fafc;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
+
+      .subtitle {
+        font-size: 1.125rem;
+        color: #64748b;
+      }
+
+      .section {
+        margin-bottom: 3rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .subsection {
+        margin-bottom: 2rem;
+      }
+
+      .subsection-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #334155;
+        margin-bottom: 1rem;
+      }
+
+      .card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        transition: all 0.2s ease;
+      }
+
+      .card:hover {
+        border-color: #cbd5e1;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .card.compact {
+        padding: 1rem;
+      }
+
+      .card.fix {
+        border-left: 4px solid #10b981;
+        background: #f0fdf4;
+      }
+
+      .card-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
+
+      .card h4.card-title {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+      }
+
+      .card-description {
+        color: #64748b;
+        font-size: 0.875rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        .title {
+          font-size: 2rem;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </body>
+</html>
