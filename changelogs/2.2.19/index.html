@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enconvo 2.2.19 Changelog</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div class="header">
+        <h1 class="title">Enconvo 2.2.19</h1>
+        <p class="subtitle">Released on November 22, 2025 🚀</p>
+      </div>
+
+      <!-- Memory Support Section -->
+      <div class="section">
+        <h2 class="section-title">🧠 Memory Support</h2>
+        <div class="card">
+          <h3 class="card-title">➕ Add to Enconvo Memory</h3>
+          <p class="card-description">
+            Easily add content to Enconvo Memory via the right-click menu or a dedicated command.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">⚡ PopBar: Add to Memory</h3>
+          <p class="card-description">
+            Use "Add to Memory" directly from the PopBar for fast capture into Enconvo Memory.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">⚙️ Memory Management in Settings</h3>
+          <p class="card-description">
+            Memory management is now available in the Settings page for greater control.
+          </p>
+        </div>
+      </div>
+
+      <!-- New Features Section -->
+      <div class="section">
+        <h2 class="section-title">✨ New Features</h2>
+        <div class="card">
+          <h3 class="card-title">🍌 Support for Nano Banana Pro</h3>
+          <p class="card-description">
+            Now compatible with <b>Nano Banana Pro</b> (<code>gemini-3-pro-image-preview</code>).
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">🌍 Region-Specific Language Options</h3>
+          <p class="card-description">
+            Added region-specific language replies. Choose, for example, <b>American English</b> or <b>British English</b> for LLM responses.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">📚 Add to Knowledge Base</h3>
+          <p class="card-description">
+            Quickly add content to the Enconvo Knowledge Base via right-click menu or dedicated command.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">⚡ PopBar: Add to Knowledge Base</h3>
+          <p class="card-description">
+            "Add to Knowledge Base" is now present in the PopBar for one-click saving.
+          </p>
+        </div>
+      </div>
+
+      <!-- Optimizations Section -->
+      <div class="section">
+        <h2 class="section-title">🚀 Optimizations</h2>
+        <div class="card">
+          <h3 class="card-title">⚡ Knowledge Base Tool</h3>
+          <p class="card-description">
+            No AI response is required when using the Knowledge Base tool, making it even faster to save information.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bug Fixes Section -->
+      <div class="section">
+        <h2 class="section-title">🛠️ Bug Fixes</h2>
+        <div class="card fix">
+          <h3 class="card-title">🚀 Performance Issues</h3>
+          <p class="card-description">
+            Resolved performance issues, especially noticeable when using Enconvo in Mail.
+          </p>
+        </div>
+        <div class="card fix">
+          <h3 class="card-title">🪟 Shell Runner Popup Repeats</h3>
+          <p class="card-description">
+            Fixed repeated appearances of the shell runner popup window.
+          </p>
+        </div>
+        <div class="card fix">
+          <h3 class="card-title">⚙️ Settings Page Freezing</h3>
+          <p class="card-description">
+            Eliminated settings page freezing issues for a smoother experience.
+          </p>
+        </div>
+        <div class="card fix">
+          <h3 class="card-title">🔈 Mail.app Drag Sound</h3>
+          <p class="card-description">
+            Fixed sound playing unexpectedly when dragging in mail.app on OS26.
+          </p>
+        </div>
+        <div class="card fix">
+          <h3 class="card-title">🔗 Safari Link Reader</h3>
+          <p class="card-description">
+            Fixed incomplete reading of app content in Safari adaptation by adding link reader support.
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.5;
+        color: #0f172a;
+        background: #f8fafc;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding: 2rem 0;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
+
+      .subtitle {
+        font-size: 1.125rem;
+        color: #64748b;
+      }
+
+      .section {
+        margin-bottom: 3rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        transition: all 0.2s ease;
+      }
+
+      .card:hover {
+        border-color: #cbd5e1;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .card.compact {
+        padding: 1rem;
+      }
+
+      .card.fix {
+        border-left: 4px solid #10b981;
+        background: #f0fdf4;
+      }
+
+      .card-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-description {
+        color: #64748b;
+        font-size: 0.875rem;
+      }
+
+      .card-description.small {
+        font-size: 0.8em;
+        color: #455469;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        .title {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </body>
+</html>
